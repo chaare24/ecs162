@@ -1,0 +1,135 @@
+<!doctype HTML>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="reset.css">
+	<link rel="stylesheet" type="text/css" href="exhibit.css">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,600,700" rel="stylesheet">
+	<meta name="viewport" content="width=device-width">
+</head>
+
+<body>
+	<header>
+		<div id="left_head">jan shrem and maria <span id="museum">manetti shrem museum</span> of art</div>
+		<nav>Home | About | Contact</nav>
+	</header>
+
+	<div class="orange_strip">
+		<img id="img1" src="C:\Users\micor\OneDrive\Documents\GitHub\ecs162\hwk2\assets\corridorInstallation.jpg"
+			alt="Exhibit Image">
+		<div class="big_info">
+			<p id="artist">Bruce Nauman</p>
+			<p id="exhibition">Blue and Yellow Corridor</p>
+		</div>
+	</div>
+
+	<main>
+		<div class="block1">
+			<img id="img_wrap_tablet" class="hiddenMobile hiddenWeb"
+				src="C:\Users\micor\OneDrive\Documents\GitHub\ecs162\hwk2\assets\bruceSketch.jpg"
+				alt="Exhibition Image">
+			<div class="left_block1">
+				<div class="date_guest">
+					<p id="date">Extended through April 14th</p>
+					<p id="guest">Guest Curator: Ted Mann</p>
+					<hr>
+				</div>
+
+				<p id="first_para">
+					Coinciding with the opening of Bruce Nauman’s (MFA ’66, UC
+					Davis) retrospective at The Museum of Modern Art, New York,
+					this exhibition features the first realization of a
+					participatory environment Nauman conceived in 1970. The work
+					is a narrow passageway that wraps around <span class="showMobile">an existing room,
+						combining colored fluorescent light and closed-circuit video
+						to manipulate the viewer’s perceptual experience. An adjacent
+						gallery includes artworks that situate the corridor within the
+						artist’s career.</span>
+				</p>
+
+				<button onclick="myFunction()" id="readMoreBtn">Read more &#8594; </button>
+			</div>
+
+			<img id="right_block1" class="showMobile hiddenTablet"
+				src="C:\Users\micor\OneDrive\Documents\GitHub\ecs162\hwk2\assets\bruceSketch.jpg"
+				alt="Exhibition Image">
+		</div>
+
+		<div id="block2" class="showMobile hiddenTablet">
+			<div class="temp_mobile">
+				<img id="bruceInGreen" class="hiddenMobile hiddenTablet"
+					src="C:\Users\micor\OneDrive\Documents\GitHub\ecs162\hwk2\assets\bruceInGreenCorridor.jpg"
+					alt="Bruce in Green Corridor">
+				<div id="web">
+					<div class="para23">
+						<p id="para2">
+							Few living artists have done much to expand the boundaries
+							of art since 1960 as Bruce Nauman. During the mid-late 1960s -
+							beginning with his time as a graduate student in the UC Davis
+							studio art program, where he received his MA in 1966 - Nauman
+							was at the forefront of a generation of artists that placed
+							process and activity over static, predetermined forms, and
+							that took up language and the body as materials. Unbound by
+							traditional divisions of medium, Nauman has moved freely
+							between sculpture, performance, film, video, photography,
+							drawing, printmaking, and large-scale installation.
+						</p>
+						<img id="bruceInGreenTab" class="hiddenMobile showTab hiddenWeb"
+							src="C:\Users\micor\OneDrive\Documents\GitHub\ecs162\hwk2\assets\bruceInGreenCorridor.jpg"
+							alt="Bruce in Green Corridor">
+						<p id="para3">
+							This exhibition coincides with a major Nauman retrospective,
+							co-organized by The Museum of Modern Art (MoMA) and the
+							Schaulager Basel, the artist's first in over twenty
+							years. While the retrospective provides an opportunity to
+							survey the full breadth of Nauman's work, the present
+							exhibition at the Manetti Shrem Museum focuses on a single,
+							exceptional artwork: a large-scale participatory environment
+							from 1970-71. Between 1969 and 1976, Nauman designed some
+							forty corridors, rooms, and other architectural installations.
+							The majority of these installations have been built for
+							exhibition on at least one occasion, but Blue and Yellow
+							Corridor is one of a handful that have remained on paper, in
+							the form of drawings by the artist. Although Nauman originally
+							developed the concept for this particular work in three
+							drawings of 1970-1971, this exhibition represents the first
+							time that the installation has actually been realized.
+						</p>
+					</div>
+					<button onclick="myFunction()" id="readLessBtn2" class="hiddenMobile hiddenTab showWeb">Read less
+						&#8594; </button>
+				</div>
+			</div>
+		</div>
+		<div class="mobileEnd">
+			<button onclick="myFunction()" id="readLessBtn">Read less &#8594; </button>
+			<img id="bruceInGreen2" class="showMobile hiddenTablet hiddenWeb"
+				src="C:\Users\micor\OneDrive\Documents\GitHub\ecs162\hwk2\assets\bruceInGreenCorridor.jpg"
+				alt="Bruce in Green Corridor">
+		</div>
+	</main>
+
+	<footer id="footer" class="showMobile">
+		<div id="left_footer">
+			<p id="museum_footer">Manetti Shrem Museum</p>
+			<div id="left_foot_block">
+				<p>254 Old Davis Rd.</p>
+				<p>Davis, CA 95616</p>
+			</div>
+		</div>
+		<div id="right_footer">
+			<p id="hours_footer">Hours</p>
+			<div id="right_foot_block">
+				<p>Tuesday, Wednesday and Friday: Noon-6 pm</p>
+				<p>Thursday: Noon-9 pm</p>
+				<p>Saturday-Sunday:11 am-5 pm</p>
+				<p>Monday: Closed</p>
+			</div>
+		</div>
+	</footer>
+	<script src="C:\Users\micor\OneDrive\Documents\GitHub\ecs162\hwk2\source\exhibit.js"></script>
+</body>
+
+</html>

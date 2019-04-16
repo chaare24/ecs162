@@ -1,0 +1,621 @@
+@media screen and (max-width: 480px) {
+    body {
+        min-height: 100vh;
+        /* needed to make sure body fills up window */
+        font-family: helvetica;
+        margin: 0%;
+    }
+    /* ----- Header Info ----- */
+    header {
+        font-family: helvetica;
+        display: flex;
+        flex-direction: column-reverse;
+        padding-top: 7%;
+        padding-bottom: 3%;
+        align-items: center;
+    }
+    #museum {
+        font-weight: 600;
+        color: rgb(201, 82, 61);
+    }
+    nav {
+        font-size: 6vw;
+        word-spacing: 0.75em;
+        margin-bottom: 4%;
+    }
+    #left_head {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 200;
+        font-size: 3.5vw;
+        font-style: normal;
+        color: rgb(46, 49, 169);
+        font-weight: 300;
+        padding-bottom: 1.5%;
+    }
+    /* ----- Orange Strip Info ----- */
+    div.big_info {
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(249, 172, 120);
+        color: white;
+        font-family: helvetica;
+        align-items: center;
+        margin-top: -23.5%;
+        padding-bottom: 3%;
+        position: relative;
+    }
+    #artist {
+        font-family: Helvetica;
+        font-weight: 700;
+        font-size: 12vw;
+        margin: 0%;
+        padding-top: 2.3%;
+    }
+    #exhibition {
+        font-family: Helvetica;
+        font-style: italic;
+        font-size: 7.5vw;
+        margin: 0%;
+    }
+    #img1 {
+        width: 100%;
+        height: 100%;
+    }
+    /* First block */
+    div.block1 {
+        display: flex;
+        flex-direction: column;
+    }
+    div.left_block1 {
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+    }
+    div.date_guest {
+        display: flex;
+        flex-direction: column;
+        color: rgb(201, 82, 61);
+        font-size: 5.5vw;
+        align-items: flex-start;
+    }
+    #date {
+        font-weight: bold;
+        margin-top: 3.5%;
+        margin-bottom: 0%;
+        margin-left: 0%;
+    }
+    #guest {
+        margin-top: 2%;
+        margin-bottom: 1%;
+        align-self: flex-start;
+    }
+    hr {
+        margin-top: 0%;
+        margin-bottom: 0%;
+        width: 100%;
+    }
+    #first_para {
+        font-family: helvetica;
+        margin-top: 2%;
+        font-size: larger;
+        line-height: 150%;
+    }
+    .showMobile {
+        display: none;
+        margin-bottom: 0%;
+    }
+    #bruceInGreenTab {
+        display: none;
+    }
+    .hiddenMobile {
+        display: none;
+    }
+    #readLessBtn2 {
+        display: none;
+    }
+    button {
+        font-size: 1.3em;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        color: rgb(201, 82, 61);
+        background-color: Transparent;
+        background-repeat: no-repeat;
+        border: none;
+        cursor: pointer;
+        overflow: hidden;
+        outline: none;
+        text-decoration: underline;
+        width: fit-content;
+        padding-left: 0%;
+    }
+    #right_block1 {
+        width: 112%;
+        height: 112%;
+        margin-left: -11%;
+        margin-right: -11%;
+        margin-top: 0%;
+        align-self: center;
+    }
+    /* Block 2 Info */
+    .temp_mobile {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .para23 {
+        font-family: helvetica;
+        margin-top: 2%;
+        font-size: larger;
+        line-height: 150%;
+        margin-bottom: 0%;
+    }
+    .mobileEnd {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #bruceInGreen2 {
+        width: 100%;
+        height: 100%;
+        margin-left: -11%;
+        margin-right: -11%;
+        margin-bottom: 5%;
+    }
+    #bruceInGreen {
+        display: none;
+    }
+    /* Footer */
+    footer {
+        display: none;
+        flex-direction: column;
+        font-size: 5vw;
+        flex: 1;
+        justify-content: flex-start;
+        font-family: 'Montserrat', sans-serif;
+        color: rgb(201, 82, 61);
+        background-color: rgb(249, 172, 120);
+        padding-left: 8.75%;
+        padding-right: 8.75%;
+        padding-bottom: 2.5%;
+        padding-top: 2%;
+        margin-top: 1.6%;
+    }
+    #left_footer {
+        line-height: 150%;
+    }
+    #right_footer {
+        line-height: 150%;
+    }
+    #museum_footer {
+        font-weight: bold;
+        margin-bottom: 0%;
+    }
+    #hours_footer {
+        font-weight: bold;
+        margin-bottom: 0%;
+    }
+    #readLessBtn {
+        display: none;
+        align-self: flex-start;
+        margin-top: 0%;
+        margin-bottom: 10%;
+    }
+    main {
+        padding-left: 8.75%;
+        padding-right: 8.75%;
+        padding-bottom: 3%;
+    }
+}
+
+/* ------------------------------- START HERE ------------------------------- */
+
+@media screen and (min-width: 481px) and (max-width: 850px) {
+    body {
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+        font-family: helvetica;
+        margin: 0%;
+    }
+    /* ----- Header Info ----- */
+    header {
+        font-family: Helvetica;
+        display: flex;
+        flex-direction: row;
+        padding-left: 3%;
+        padding-right: 10%;
+        padding-top: 4%;
+        padding-bottom: 4%;
+        align-items: flex-end;
+        justify-content: space-around;
+    }
+    #museum {
+        font-weight: 600;
+        color: rgb(201, 82, 61);
+    }
+    nav {
+        word-spacing: 0.5em;
+        font-size: 3.1vw;
+        margin-bottom: -0.5%;
+        padding-bottom: 0%;
+    }
+    #left_head {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 1.75vw;
+        font-weight: lighter;
+        font-style: normal;
+        color: rgb(46, 69, 146);
+    }
+    /* ----- Orange Strip Info ----- */
+    div.orange_strip {
+        display: flex;
+        flex-direction: row;
+        background-color: rgb(249, 172, 120);
+        padding-right: 10%;
+        margin-bottom: 4%;
+        justify-content: space-between;
+        align-items: center;
+    }
+    div.big_info {
+        color: white;
+        font-family: helvetica;
+    }
+    #artist {
+        font-family: Helvetica;
+        font-weight: 700;
+        font-size: 6.75vw;
+        margin: 0%;
+    }
+    #exhibition {
+        font-family: Helvetica;
+        font-style: italic;
+        font-size: 4.15vw;
+        margin: 0%;
+    }
+    #img1 {
+        width: 36.5%;
+        height: 36.5%;
+    }
+    .showTab {
+        display: none;
+    }
+    .hiddenTablet {
+        display: none;
+    }
+    /* First block */
+    div.date_guest {
+        display: flex;
+        flex-direction: column;
+        color: rgb(201, 82, 61);
+        font-size: 1.3em;
+    }
+    #date {
+        font-weight: bold;
+        margin-bottom: 0.5%;
+        margin-top: 0%;
+    }
+    #guest {
+        font-weight: 200;
+        margin: 0%;
+    }
+    hr {
+        margin-top: 3%;
+        margin-left: 0%;
+        margin-bottom: 0%;
+        width: 90%;
+        justify-content: flex-start;
+    }
+    #first_para {
+        font-size: 1.25em;
+        line-height: 130%;
+    }
+    button {
+        font-size: 1.3em;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        color: rgb(201, 82, 61);
+        background-color: Transparent;
+        background-repeat: no-repeat;
+        border: none;
+        cursor: pointer;
+        overflow: hidden;
+        outline: none;
+        text-decoration: underline;
+        width: fit-content;
+        padding-left: 0%;
+    }
+    #img_wrap_tablet {
+        width: 43%;
+        height: 50%;
+        margin-top: 0.7%;
+        margin-left: 2%;
+        margin-bottom: 1.9%;
+        padding-right: 4%;
+        float: right;
+    }
+    /* Second Block */
+    #block2 {
+        display: none;
+        flex-direction: row;
+    }
+    #bruceInGreen {
+        display: none;
+    }
+    #para3 {
+        margin-top: 5%;
+    }
+    #bruceInGreenTab {
+        height: 50%;
+        width: 50%;
+        margin-right: 5%;
+        margin-bottom: 4%;
+        margin-top: 3%;
+        float: left;
+    }
+    .para23 {
+        font-size: 1.25em;
+        line-height: 130%;
+        word-wrap: normal;
+    }
+    /* Footer */
+    footer {
+        display: flex;
+        flex-direction: row;
+        flex: 1;
+        margin-top: auto;
+        justify-content: space-between;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 2.2vw;
+        color: rgb(201, 82, 61);
+        background-color: rgb(249, 172, 120);
+        padding-left: 8.75%;
+        padding-right: 8.75%;
+        padding-top: 5%;
+        margin-top: 1.6%;
+    }
+    #left_footer {
+        display: flex;
+        flex-direction: column;
+        line-height: 100%;
+    }
+    #right_footer {
+        display: flex;
+        flex-direction: column;
+        margin-left: 7%;
+        line-height: 100%;
+    }
+    #museum_footer {
+        font-weight: bold;
+        margin-bottom: 10%;
+        margin-top: 0%;
+    }
+    #hours_footer {
+        font-weight: bold;
+        margin-bottom: 5.5%;
+        margin-top: 0%;
+    }
+    #readLessBtn {
+        display: none;
+        padding-top: 1.75%;
+    }
+    #readLessBtn2 {
+        display: none;
+    }
+    main {
+        display: flex;
+        flex-direction: column;
+        padding-left: 9.5%;
+        padding-right: 9.5%;
+        padding-bottom: 3%;
+    }
+}
+
+/* Web */
+
+@media screen and (min-width: 851px) {
+    body {
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+        font-family: helvetica;
+        margin: 0%;
+    }
+    .showWeb {
+        display: none;
+    }
+    .hiddenWeb {
+        display: none;
+    }
+    #bruceInGreenTab {
+        display: none;
+    }
+    #bruceInGreen2 {
+        display: none;
+    }
+    /* ----- Header Info ----- */
+    header {
+        font-family: helvetica;
+        display: flex;
+        flex-direction: row;
+        font-size: 1.7vw;
+        padding-left: 8.75%;
+        padding-right: 8.75%;
+        padding-top: 3%;
+        padding-bottom: 3%;
+        justify-content: space-between;
+    }
+    #museum {
+        font-weight: 600;
+        color: rgb(201, 82, 61);
+    }
+    nav {
+        word-spacing: 0.75em;
+    }
+    #left_head {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 200;
+        font-style: normal;
+        color: rgb(46, 69, 146);
+        font-weight: 300;
+    }
+    /* ----- Orange Strip Info ----- */
+    div.orange_strip {
+        display: flex;
+        flex-direction: row;
+        background-color: rgb(249, 172, 120);
+        padding-left: 8.75%;
+        padding-right: 8.75%;
+        justify-content: space-between;
+        align-items: center;
+    }
+    div.big_info {
+        color: white;
+        font-family: helvetica;
+    }
+    #artist {
+        font-family: Helvetica;
+        font-weight: 700;
+        font-size: 6.75vw;
+        margin: 0%;
+    }
+    #exhibition {
+        font-family: Helvetica;
+        font-style: italic;
+        font-size: 4.15vw;
+        margin: 0%;
+    }
+    #img1 {
+        width: 36.5%;
+        height: 36.5%;
+    }
+    /* First block */
+    div.block1 {
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 0%;
+    }
+    div.left_block1 {
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+    }
+    div.date_guest {
+        margin-top: 6%;
+        color: rgb(201, 82, 61);
+        font-size: 2vw;
+    }
+    #date {
+        font-weight: bold;
+        margin-bottom: 0.5%;
+    }
+    #guest {
+        font-weight: 200;
+        margin: 0%;
+    }
+    hr {
+        margin-top: 3%;
+        margin-left: 0%;
+        margin-bottom: 3%;
+        width: 95%;
+        justify-content: flex-start;
+    }
+    #first_para {
+        font-size: 1.62em;
+        line-height: 130%;
+    }
+    button {
+        font-size: 1.65em;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        color: rgb(201, 82, 61);
+        background-color: Transparent;
+        background-repeat: no-repeat;
+        border: none;
+        cursor: pointer;
+        overflow: hidden;
+        outline: none;
+        text-decoration: underline;
+        width: fit-content;
+        padding-left: 0%;
+    }
+    #right_block1 {
+        width: 45.5%;
+        height: 45.5%;
+        margin-top: 3.25%;
+        margin-left: 2%;
+    }
+    /* Block 2 Info */
+    #block2 {
+        display: none;
+        flex-direction: row;
+    }
+    .temp_mobile {
+        display: flex;
+        flex-direction: row;
+    }
+    #web {
+        display: flex;
+        flex-direction: column;
+    }
+    #bruceInGreen {
+        height: 100%;
+        width: 100%;
+        margin-right: 4%;
+    }
+    .para23 {
+        font-size: 1.62em;
+        line-height: 130%;
+        word-wrap: normal;
+        padding-top: 3%;
+    }
+    #para2 {
+        margin-top: 0%;
+    }
+    /* Footer */
+    footer {
+        display: none;
+        flex-shrink: 0;
+        justify-content: flex-start;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 1.8vw;
+        color: rgb(201, 82, 61);
+        background-color: rgb(249, 172, 120);
+        padding-left: 8.75%;
+        padding-right: 8.75%;
+        padding-bottom: 2.5%;
+        padding-top: 3%;
+        margin-top: 1.6%;
+    }
+    #left_footer {
+        display: flex;
+        flex-direction: column;
+        line-height: 100%;
+    }
+    #right_footer {
+        display: flex;
+        flex-direction: column;
+        line-height: 100%;
+        margin-left: 12.75%;
+    }
+    #museum_footer {
+        font-weight: bold;
+        margin-bottom: 10%;
+        margin-top: 0%;
+    }
+    #hours_footer {
+        font-weight: bold;
+        margin-bottom: 5.5%;
+        margin-top: 0%;
+    }
+    #readLessBtn {
+        display: none;
+        margin-left: 39.5%;
+    }
+    main {
+        padding-left: 8.75%;
+        padding-right: 8.75%;
+        padding-bottom: 3%;
+    }
+}

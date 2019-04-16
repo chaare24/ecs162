@@ -15,7 +15,7 @@
     <div class="purple_display">
         <div class="left_purple">
             <div class="title_block">
-                <h1 id="title">Local Weather Six Hour Forecast</h1>
+                <h1 id="title"><span id="title1">Local Weather</span> <span id="title2">Six Hour Forecast</span></h1>
                 <h2 id="subtitle">Northern California with doppler radar</h2>
             </div>
             <div class="input_block">
@@ -38,17 +38,23 @@
                 </div>
             </div>
         </div>
-        <button id="up_arrow">^</button>
+        <footer>
+            <button id="up_arrow" onclick="toggle()"><img id="up_arrow_pic"
+                    src="C:\Users\micor\OneDrive\Documents\GitHub\ecs162\hwk3\assets\up-arrow.svg"></i></button>
+        </footer>
         <div class="right_purple">
             <img id="top1" src="C:\Users\micor\OneDrive\Documents\GitHub\ecs162\hwk3\assets\top1.jpg">
             <img id="top2" src="C:\Users\micor\OneDrive\Documents\GitHub\ecs162\hwk3\assets\top2.gif">
             <img id="top3" src="C:\Users\micor\OneDrive\Documents\GitHub\ecs162\hwk3\assets\top3.gif">
         </div>
     </div>
-
     <div class="white_display">
-
+        <div class="slider">
+            this is a test
+        </div>
     </div>
+
+    <script src="C:\Users\micor\OneDrive\Documents\GitHub\ecs162\hwk3\source\weather.js"></script>
 </body>
 
 </html>

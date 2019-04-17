@@ -93,6 +93,8 @@
     }
     #hr_purple {
         border-color: black;
+        margin-left: 10%;
+        margin-right: 10%;
     }
     #current_temp {
         font-family: 'Saira Extra Condensed', sans-serif;
@@ -137,8 +139,8 @@
         outline: none;
     }
     #up_arrow_pic {
-        width: 40%;
-        height: 40%;
+        width: 10%;
+        height: 10%;
         -webkit-filter: invert(100%);
     }
     footer {
@@ -147,6 +149,7 @@
         width: 100%;
         color: white;
         text-align: center;
+        padding-bottom: 2%;
     }
     .white_display {
         display: none;

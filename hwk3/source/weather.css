@@ -101,6 +101,9 @@
         color: white;
         font-size: 85pt;
     }
+    .time_purple_web {
+        display: none;
+    }
     .time_and_temp {
         display: flex;
         flex-direction: row;

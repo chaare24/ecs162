@@ -1,8 +1,6 @@
 let up_slider = document.getElementById("up_arrow");
 let white = document.getElementsByClassName("white_display")[0];
 let purple = document.getElementsByClassName("purple_display")[0];
-up_slider.addEventListener("animationstart", listener, false);
-
 
 function toggle() {
     if (white.style.display != "flex") {

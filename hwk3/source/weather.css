@@ -1,4 +1,5 @@
 @media screen and (max-width: 480px) {
+    /* ----- PURPLE PORTION ----- */
     html {
         height: 100%;
     }
@@ -155,7 +156,6 @@
         background-color: white;
         height: 100vh;
         width: 100vw;
-        
     }
     .slidein {
         animation-duration: 1s;
@@ -172,4 +172,5 @@
             width: 100%;
         }
     }
+    /* ----- WHITE PORTION ----- */
 }
